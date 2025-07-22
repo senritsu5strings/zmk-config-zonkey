@@ -233,8 +233,8 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp EXCL        &kp AT        &kp HASH      &kp DLLR          &kp PERCENT                                &kp CARET      &kp AMPERSAND   &kp ASTRK          &kp LPAR  &kp EQUAL
-&kp D           &trans        &trans        &trans            &trans       &trans                &trans  &trans         &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp BSLH  &kp LEFT_BRACKET
+&kp EXCL        &kp AT        &kp HASH      &kp DLLR          &kp PERCENT                                &kp CARET      &kp AMPERSAND   &kp ASTRK          &kp LPAR  &kp 0x89
+&kp D           &trans        &trans        &trans            &trans       &trans                &trans  &trans         &kp LS(0x87)    &kp RIGHT_BRACKET  &kp BSLH  &kp LEFT_BRACKET
 &kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans  &trans         &trans          &trans             &trans    &trans
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN            &kp BACKSPACE  &kp ENTER                                                      &kp DEL
             >;
